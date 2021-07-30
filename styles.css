@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  cursor: url(./images/cursor.png), default;
+  background-color: #c0c86d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg {
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  width: 1800px;
+  height: 980px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hole {
+  background: black;
+  border-radius: 50%;
+  overflow: visible;
+  width: 240px;
+  height: 240px;
+}
+
+.hole-container {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mole {
+  position: relative;
+  bottom: 5px;
+  right: 47px;
+}
+
+.hungry {
+  cursor: url(./images/cursor-worm.png), pointer;
+}
+
+.gone {
+  display: none;
+}
+
+.worm {
+  width: 1660px;
+}
+
+.worm-container {
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+}
+
+.worm-box {
+  width: 1660px;
+}
+
+.win {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
